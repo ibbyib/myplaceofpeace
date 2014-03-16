@@ -1,5 +1,41 @@
-#classy{
-font-family:cursive, Monotype Corsiva;
-color:#FF8C00;
-font-weight:heavy;
+#lol {
+	font-family:cursive;
+	color:#F8F8FF;
+	font-weight:normal;
+	text-align: center;
+	font-size:50px;
+	background-color:#FF8C00;
+
+	/*sikrits*/
+}
+body{
+	margin:0px;
+	padding:0px;
+}
+h2{
+	font-family:cursive;
+	color:#F8F8FF;
+	text-align: center;
+	background-color:#FF8C00;
+	text-align:top;
+	font-size:45px;
+}
+
+header{
+	display:block;
+	background-color: #D3D3D3;
+	height:20px;
+	text-align: center;
+}
+#left{
+	text-align:left;
+}
+.footer{
+	text-align: center;
+}
+p {
+	font-family:"open sans";
+	color:#696969;
+	text-align: center;
+	font-size:25px;
 }
