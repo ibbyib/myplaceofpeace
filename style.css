@@ -1,41 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end */
 #lol {
-	font-family:cursive;
-	color:#F8F8FF;
-	font-weight:normal;
-	text-align: center;
+	font-family:"Gafata", sans-serif;
+	color:#2c3e50;
+	font-weight:bold;
+	display:inline;
 	font-size:50px;
-	background-color:#FF8C00;
+	padding-bottom: 5px;
+	padding-top:10px;
+	width:1024px;
+	margin: 0 auto;
 
 	/*sikrits*/
 }
 body{
-	margin:0px;
-	padding:0px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #ecf0f1;
 }
 h2{
-	font-family:cursive;
-	color:#F8F8FF;
-	text-align: center;
-	background-color:#FF8C00;
-	text-align:top;
-	font-size:45px;
+	font-family:"duru sans";
+	color:#2c3e50;
+	display:inline;
+	font-size: 30px;
+	height:40px;
+	padding-bottom: 5px;
+	padding-top: 1px;
 }
 
 header{
 	display:block;
-	background-color: #D3D3D3;
-	height:20px;
+	background-color: #bdc3c7;
+	height: 30px;
+	font-family:"duru sans";
+	font-weight:300;
+	font-size:18px;
 	text-align: center;
+	padding-top: 15px;
 }
-#left{
-	text-align:left;
+h5 {
+	font-family:"duru sans";
+	color:#2c3e50;
+	font-weight:bold;
+	font-size:35px;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+.last{
+	font-family:"duru sans";
+	color:#2c3e50;
+	font-size:17px;
+	padding-top:5px;
+	padding-bottom:10px;
 }
 .footer{
 	text-align: center;
+	margin: 0px;
+	padding-bottom: 20px;
+	font-family:"duru sans";
+	font-weight:300;
 }
-p {
-	font-family:"open sans";
-	color:#696969;
-	text-align: center;
-	font-size:25px;
+.p1 {
+	font-family:"duru sans";
+	color:#2c3e50;
+	font-size: 19px;
+	padding-top: 40px;
+	margin: 0px;
+	padding-bottom:40px;
+}
+h4 {
+	font-family:"duru sans";
+	font-weight:bold;
+	font-size:35px;
+	padding-bottom:20px;
+	padding-top:5px;
+	color:#2c3e50;
+}
+.life {
+	font-family:"duru sans";
+	font-weight:300;
+	font-size:17px;
+	padding-top:5px;
+	padding-bottom:30px;
+	color:#2c3e50;
+}
+h3 {
+	font-family:"duru sans";
+	font-weight:bold;
+	font-size:35px;
+	padding-bottom:20px;
+	padding-top:5px;
+    color:#2c3e50;
+}
+.p2 {
+	font-family:"duru sans";
+	font-weight:300;
+	font-size:17px;
+	padding-top:0px;
+	padding-bottom:15px;
+	color:#2c3e50;
+}
+footer {
+	background-color:#bdc3c7;
 }
