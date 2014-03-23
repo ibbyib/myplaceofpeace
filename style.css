@@ -1,28 +1,110 @@
-header ul li a{
-	font-family:sans-serif;
+.nav ul li{
 	display:inline-block;
-	font-size:30px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.nav ul li a{
+	text-decoration: none;
+	-moz-transition:0.7s;
+	-webkit-transition:0.7s;
+	-o-transition:0.7s;
+	-ms-transition:0.7s;
+	transition:0.7s;
+	font-family:'ubuntu mono';
+	font-size:25px;
 	padding-right:20px;
-		color:gray;
-	-moz-transition:0.8s;
-	-o-transition:0.8s;
-	-webkit-transition:0.8s;
-	-ms-transition:0.8s;
-	transition:0.8s;
+	padding-bottom:10px;
+	color:#000000;
+	vertical-align: middle;
 }
-header ul li{
-	display:inline-block;
-	float:right;
-}
-header ul li a:hover{
+.nav ul li a:hover{
 	color:#ffffff;
 }
-.logo{
+.nav{
+	background-color:red;
+	margin:0px;
+	top:0;
+	border:1px solid #000000;
+	float:top;
+	vertical-align: top;
+}
+.name{
 	float:left;
+	vertical-align: text-top;
 }
-header{
-	background-color:red;
+.list{
+	float:right;
 }
-.innerwrapper{
+#innerwrapper{
+	margin-left:3em;
+	margin-right:30em;
+	font-family:'ubuntu mono';
+	border:1px solid #ffffff;
+	padding-left:10px;
+	margin-top:1em;
+	margin-bottom:1em;
+	background-color:#ffffff;
+	box-shadow: 0px 0px 1px 1px #ffffff;
+	-o-transition:0.3s;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	-ms-transition:0.3s;
+	transition:0.3s;
+}
+footer{
 	background-color:red;
+	font-family:'ubuntu mono';
+	text-align: center;
+	color:gray;
+}
+iframe{
+	float:right;
+	margin-top:3em;
+	margin-right:5em;
+}
+#innerwrapper:hover{
+	box-shadow:0px 0px 4px 4px #ffffff;
+}
+#second-story{
+	margin-left:3em;
+	margin-right:30em;
+	font-family:'ubuntu mono';
+	border:1px solid #ffffff;
+	padding-left:10px;
+	margin-top:1em;
+	margin-bottom:1em;
+	background-color:#ffffff;
+	box-shadow: 0px 0px 1px 1px #ffffff;
+	-o-transition:0.3s;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	-ms-transition:0.3s;
+	transition:0.3s;
+}
+#second-story:hover{
+	box-shadow:0px 0px 4px 4px #ffffff;
+}
+#third-story{
+	margin-left:3em;
+	margin-right:30em;
+	font-family:'ubuntu mono';
+	border:1px solid #ffffff;
+	padding-left:10px;
+	margin-top:1em;
+	margin-bottom:1em;
+	background-color:#ffffff;
+	box-shadow: 0px 0px 1px 1px #ffffff;
+	-o-transition:0.3s;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	-ms-transition:0.3s;
+	transition:0.3s;
+}
+#third-story:hover{
+	box-shadow:0px 0px 4px 4px #ffffff;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background-color:#000000;
 }
